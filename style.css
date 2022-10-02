@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.case{
+    display: none;
+}
+.switch{
+    display: block;
+    width: 220px;
+    height: 120px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 60px;
+    transition: all 0.2s ease-in-out;
+}
+.bouton{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.case:checked + .switch{
+    background-color: lightgreen;
+}
+
+.case:checked + .switch .bouton{
+    transform: translateX(100px);
+}
