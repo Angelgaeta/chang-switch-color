@@ -9,9 +9,11 @@ body{
     width: 100vh;
     margin: 200px auto;
 }
+
 .case{
     display: none;
 }
+
 .switch{
     display: block;
     width: 220px;
@@ -22,12 +24,15 @@ body{
     transition: all 0.2s ease-in-out;
     margin: 0 auto;
 }
+
 .bouton{
     width: 100px;
     height: 100px;
-    background-color: tomato;
+    background-color: #fff;
     border-radius: 50px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0px 8px #111, inset 0 0px 8px #c5c5c5;
+    cursor: pointer;
 }
 
 .case:checked + .switch{
