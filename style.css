@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2C2D2E;
+}
+
+body{
+    width: 100vh;
+    margin: 200px auto;
 }
 .case{
     display: none;
@@ -14,6 +20,7 @@
     background-color: lightgray;
     border-radius: 60px;
     transition: all 0.2s ease-in-out;
+    margin: 0 auto;
 }
 .bouton{
     width: 100px;
